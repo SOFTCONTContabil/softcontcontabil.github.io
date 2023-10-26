@@ -1,38 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contabilix</title>
+    <title>SoftCont Contabilidade Online</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
     <header>
         <h1>SoftCont Contabilidade Online</h1>
         <nav>
             <ul>
-                <li><a href="#services">ServiÁos</a></li>
-                <li><a href="#about">Sobre NÛs</a></li>
+                <li><a href="#services">Servi√ßos</a></li>
+                <li><a href="#about">Sobre N√≥s</a></li>
                 <li><a href="#contact">Contato</a></li>
             </ul>
         </nav>
     </header>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="imagem1.jpg" alt="Imagem 1">
+            </div>
+
+            <div class="item">
+                <img src="imagem2.jpg" alt="Imagem 2">
+            </div>
+
+            <div class="item">
+                <img src="imagem3.jpg" alt="Imagem 3">
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
     <section id="services">
-        <h2>Nossos ServiÁos</h2>
-        <p>Oferecemos serviÁos de contabilidade para pequenas e mÈdias empresas. Entre nossos serviÁos est„o:</p>
+        <h2>Nossos Servi√ßos</h2>
+        <p>Oferecemos servi√ßos de contabilidade para pequenas e m√©dias empresas. Entre nossos servi√ßos est√£o:</p>
         <ul>
             <li>Contabilidade fiscal</li>
-            <li>Consultoria tribut·ria</li>
-            <li>Assessoria cont·bil</li>
+            <li>Consultoria tribut√°ria</li>
+            <li>Assessoria cont√°bil</li>
         </ul>
     </section>
     <section id="about">
-        <h2>Sobre NÛs</h2>
-        <p>Contabilix È uma empresa de contabilidade comprometida em fornecer serviÁos de qualidade para nossos clientes. Nossa equipe experiente est· pronta para atender ‡s suas necessidades cont·beis.</p>
+        <h2>Sobre N√≥s</h2>
+        <p>SoftCont Contabilidade Online √© uma empresa comprometida em fornecer servi√ßos de qualidade para nossos clientes. Nossa equipe experiente est√° pronta para atender √†s suas necessidades cont√°beis.</p>
+        <img src="sua_imagem_sobre_nos.jpg" alt="Equipe SoftCont">
     </section>
     <section id="contact">
         <h2>Contato</h2>
-        <p>VocÍ pode nos contatar atravÈs do formul·rio abaixo:</p>
+        <p>Voc√™ pode nos contatar atrav√©s do formul√°rio abaixo:</p>
         <form>
             <label for="name">Nome:</label>
             <input type="text" id="name" name="name" required><br><br>
@@ -44,7 +83,7 @@
         </form>
     </section>
     <footer>
-        <p>&copy; 2023 Contabilix. Todos os direitos reservados.</p>
+        <p>&copy; 2023 SoftCont Contabilidade Online. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
